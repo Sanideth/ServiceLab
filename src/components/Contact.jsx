@@ -1,4 +1,4 @@
-const Newsletter = () => {
+const Contact = () => {
   return (
     <section className="w-full py-16 text-white px-4" id="contact">
       <div className="max-w-[1240px] mx-auto grid ">
@@ -40,4 +40,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Contact;

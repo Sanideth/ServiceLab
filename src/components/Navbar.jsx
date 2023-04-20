@@ -54,11 +54,22 @@ const Navbar = () => {
       >
         <h1 className="w-full text-3xl font-bold text-[#86c232] m-4">React.</h1>
 
-        <li className="p-4 border-b border-b-gray-600">Home</li>
-        <li className="p-4 border-b border-b-gray-600">Company</li>
-        <li className="p-4 border-b border-b-gray-600">Resources</li>
-        <li className="p-4 border-b border-b-gray-600">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 border-b border-b-gray-600">
+          <a href="#home">მთავარი</a>
+        </li>
+        <li className="p-4 border-b border-b-gray-600">
+          {" "}
+          <a href="#how">როგორ ვმუშაობთ</a>
+        </li>
+        <li className="p-4 border-b border-b-gray-600">
+          <a href="#services">სერვისი</a>
+        </li>
+        <li className="p-4 border-b border-b-gray-600">
+          <a href="#contact">კონტაქტი</a>
+        </li>
+        <li className="p-4">
+          <a href="#about">ჩვენ შესახებ</a>
+        </li>
       </ul>
     </div>
   );
