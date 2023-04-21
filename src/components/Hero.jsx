@@ -2,7 +2,7 @@ import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="text-white bg-hero">
+    <div className="text-white bg-hero bg-cover bg-center">
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-10" />
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center relative z-20">
         <p className="text-[#86c232] font-bold p-2">
