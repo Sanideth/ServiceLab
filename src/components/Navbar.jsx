@@ -26,19 +26,32 @@ const Navbar = () => {
       <h1 className="w-full text-3xl font-bold text-[#86c232]">ServiceLab</h1>
       <ul className=" hidden md:flex items-center">
         <li className="p-2 whitespace-nowrap  cursor-pointer">
-          <a href="#home">მთავარი</a>
+          <a href="#home" aria-label="მთავარი">
+            მთავარი
+          </a>
         </li>
         <li className="p-2 whitespace-nowrap cursor-pointer">
-          <a href="#how">როგორ ვმუშაობთ</a>
+          <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+            როგორ ვმუშაობთ
+          </a>
         </li>
         <li className="p-2 whitespace-nowrap cursor-pointer">
-          <a href="#services">სერვისი</a>
+          <a
+            href="#services"
+            aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
+          >
+            სერვისი
+          </a>
         </li>
         <li className="p-2 whitespace-nowrap cursor-pointer">
-          <a href="#contact">კონტაქტი</a>
+          <a href="#contact" aria-label="დაგვიკავშირდით">
+            კონტაქტი
+          </a>
         </li>
         <li className="p-2 whitespace-nowrap cursor-pointer">
-          <a href="#about">ჩვენ შესახებ</a>
+          <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+            ჩვენ შესახებ
+          </a>
         </li>
       </ul>
       <div onClick={handleNavOpen} className="block md:hidden cursor-pointer">
@@ -55,20 +68,33 @@ const Navbar = () => {
         <h1 className="w-full text-3xl font-bold text-[#86c232] m-4">React.</h1>
 
         <li className="p-4 border-b border-b-gray-600">
-          <a href="#home">მთავარი</a>
+          <a href="#home" aria-label="მთავარი">
+            მთავარი
+          </a>
         </li>
         <li className="p-4 border-b border-b-gray-600">
           {" "}
-          <a href="#how">როგორ ვმუშაობთ</a>
+          <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+            როგორ ვმუშაობთ
+          </a>
         </li>
         <li className="p-4 border-b border-b-gray-600">
-          <a href="#services">სერვისი</a>
+          <a
+            href="#services"
+            aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
+          >
+            სერვისი
+          </a>
         </li>
         <li className="p-4 border-b border-b-gray-600">
-          <a href="#contact">კონტაქტი</a>
+          <a href="#contact" aria-label="დაგვიკავშირდით">
+            კონტაქტი
+          </a>
         </li>
         <li className="p-4">
-          <a href="#about">ჩვენ შესახებ</a>
+          <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+            ჩვენ შესახებ
+          </a>
         </li>
       </ul>
     </div>

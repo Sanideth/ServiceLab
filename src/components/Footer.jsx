@@ -12,7 +12,11 @@ const Footer = () => {
           </h1>
           <div className="flex items-center justify-center lg:justify-start">
             <BsFillTelephoneFill className="mr-3" />
-            <a className="py-4" href="tel:599378596">
+            <a
+              className="py-4"
+              href="tel:599378596"
+              aria-label="დაგვიკავშირდით ტელეფონის ნომერზე"
+            >
               599 37 85 96
             </a>
           </div>
@@ -23,13 +27,18 @@ const Footer = () => {
               href="https://goo.gl/maps/7uxG9ppVfajDE7on6"
               target="_blank"
               rel="noreferrer"
+              aria-label="გვეწვიეთ მისამართზე"
             >
               ქ. თბილისი, ბელიაშვილის 9
             </a>
           </div>
           <div className="flex items-center justify-center lg:justify-start">
             <MdEmail className="mr-3" />
-            <a className="py-4" href="mailto:info@servicelab.ge">
+            <a
+              className="py-4"
+              href="mailto:info@servicelab.ge"
+              aria-label="დაგვიკავშირდით ელ. ფოსტის მეშვეობით"
+            >
               info@servicelab.ge
             </a>
           </div>
@@ -38,19 +47,32 @@ const Footer = () => {
           <div>
             <ul className=" flex-col flex md:flex-row items-center">
               <li className="p-2 whitespace-nowrap  cursor-pointer">
-                <a href="#home">მთავარი</a>
+                <a href="#home" aria-label="მთავარი">
+                  მთავარი
+                </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer">
-                <a href="#how">როგორ ვმუშაობთ</a>
+                <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+                  როგორ ვმუშაობთ
+                </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer">
-                <a href="#services">სერვისი</a>
+                <a
+                  href="#services"
+                  aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
+                >
+                  სერვისი
+                </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer">
-                <a href="#contact">კონტაქტი</a>
+                <a href="#contact" aria-label="დაგვიკავშირდით">
+                  კონტაქტი
+                </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer">
-                <a href="#about">ჩვენ შესახებ</a>
+                <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+                  ჩვენ შესახებ
+                </a>
               </li>
             </ul>
           </div>
@@ -61,6 +83,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             className="mr-2"
+            aria-label="ეწვიეთ ჩვენ ფეისბუქ გვერდს"
           >
             <FaFacebookSquare
               size={30}
@@ -71,6 +94,7 @@ const Footer = () => {
             href="https://www.facebook.com/giorgi.melkadze"
             target="_blank"
             rel="noreferrer"
+            aria-label="ეწვიეთ ჩვენ ინსტაგრამ გვერდს"
           >
             <FaInstagram
               size={30}
