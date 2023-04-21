@@ -28,7 +28,43 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <style>
+      .wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-color: #86c232;
+      }
+      .loading {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 50%;
+        border-top-color: rgba(0, 0, 0, 0.4);
+        animation: spin 1s ease-in-out infinite;
+        -webkit-animation: spin 1s ease-in-out infinite;
+        left: calc(50%);
+        top: calc(50%);
+        position: fixed;
+        z-index: 1;
+      }
+
+      @keyframes spin {
+        to {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @-webkit-keyframes spin {
+        to {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+    </style>
+    <div id="root">
+      <div class="wrapper">
+        <div class="loading"></div>
+      </div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
