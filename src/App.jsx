@@ -6,6 +6,7 @@ import How from "./components/How";
 import Contact from "./components/Contact";
 
 function App() {
+  console.log("here will be upscroll code");
   return (
     <div className="App scroll-smooth">
       <Navbar />
