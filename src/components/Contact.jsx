@@ -30,7 +30,7 @@ const Contact = () => {
               placeholder="შეტყობინება..."
               className="p-3 flex w-full rounded-md text-black mb-8 outline-none"
             />
-            <button className="text-black bg-[#86c232] w-[200px] rounded-md ml-4 font-medium my-6 px-6 py-3 ">
+            <button className="text-black bg-secondary w-[200px] rounded-md ml-4 font-medium my-6 px-6 py-3 ">
               გაგზავნა
             </button>
           </form>

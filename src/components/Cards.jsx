@@ -1,7 +1,7 @@
-import { HiOutlineSearch } from "react-icons/hi";
-import { BsCurrencyDollar } from "react-icons/bs";
-import { FiSettings } from "react-icons/fi";
-import Card from "./Card";
+import { HiOutlineSearch } from 'react-icons/hi';
+import { BsCurrencyDollar } from 'react-icons/bs';
+import { FiSettings } from 'react-icons/fi';
+import Card from './Card';
 const Cards = () => {
   return (
     <section
@@ -14,23 +14,19 @@ const Cards = () => {
       </h2>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 relative z-30">
         <Card
-          icon={
-            <HiOutlineSearch className="mx-auto text-[#86c232]" size={30} />
-          }
+          icon={<HiOutlineSearch className="mx-auto text-main" size={30} />}
           heading="პრინტერების/მაკომპლექტებლების დიაგნოსტიკა"
           alt="single"
           middleText="უფასო დიაგნოსტიკა"
         />
         <Card
-          icon={
-            <BsCurrencyDollar className="mx-auto text-[#86c232]" size={30} />
-          }
+          icon={<BsCurrencyDollar className="mx-auto text-main" size={30} />}
           heading="პრინტერების/მაკომპლექტებლების  ყიდვა-გაყიდვა"
           alt="double"
           middleText="უფასო კონსულტაცია"
         />
         <Card
-          icon={<FiSettings className="mx-auto text-[#86c232]" size={30} />}
+          icon={<FiSettings className="mx-auto text-main" size={30} />}
           heading="პრინტერების/მაკომპლექტებლების  შეკეთება"
           alt="triple"
           middleText="უფასო კონსულტაცია"
