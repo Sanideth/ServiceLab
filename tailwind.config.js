@@ -10,8 +10,8 @@ module.exports = {
         printer2: "url('/src/assets/hero-1.webp')",
       },
       colors: {
-        main: '#005d9c',
-        secondary: '#efc919',
+        main: '#2281d5',
+        secondary: '#d48700',
       },
     },
   },
