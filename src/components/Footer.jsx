@@ -17,10 +17,10 @@ const Footer = () => {
             <BsFillTelephoneFill className="mr-3" />
             <a
               className="py-4"
-              href="tel:599378596"
+              href="tel:+995555443144"
               aria-label="დაგვიკავშირდით ტელეფონის ნომერზე"
             >
-              599 37 85 96
+              555 44 31 44
             </a>
           </div>
           <div className="flex items-center justify-center lg:justify-start">
@@ -32,7 +32,7 @@ const Footer = () => {
               rel="noreferrer"
               aria-label="გვეწვიეთ მისამართზე"
             >
-              ქ. თბილისი, ბელიაშვილის 9
+              ქ. თბილისი, ვაჟა-ფშაველას გამზ. N 25
             </a>
           </div>
           <div className="flex items-center justify-center lg:justify-start">

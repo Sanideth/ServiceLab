@@ -1,4 +1,4 @@
-import Printer2 from '../assets/hero-1.webp';
+import Printer2 from '../assets/printer2.jpg';
 
 const How = () => {
   return (
