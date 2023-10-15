@@ -8,9 +8,12 @@ const Hero = () => {
         <p className="text-secondary font-bold p-2">
           დაბეჭდე სწრაფად და მარტივად
         </p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          ServiceLab
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-[#0fec93] to-[#0039e2]">
+          Service
         </h1>
+        <span className="block md:text-7xl sm:text-6xl text-4xl font-bold md:pb-6 bg-clip-text text-transparent bg-gradient-to-br from-secondary via-[#d09900] to-secondary">
+          Lab
+        </span>
         <div className="flex justify-center flex-col ">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold ">
             ნებისმიერი ტიპის სერვისი პრინტერებზე:

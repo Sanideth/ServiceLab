@@ -6,8 +6,8 @@ const How = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img src={Printer2} alt="Laptop" className="w-[500px] mx-auto my-4" />
         <div className="flex flex-col justify-center ml-8">
-          <p className="text-main font-bold">საოფისე ტექნიკის სერვისი</p>
-          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 ">
+          <p className="font-bold">საოფისე ტექნიკის სერვისი</p>
+          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-main">
             პრინტერების და კარტრიჯების შეკეთება/აღდგენა
           </h2>
           <p>
