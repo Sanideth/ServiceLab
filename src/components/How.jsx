@@ -2,13 +2,13 @@ import Printer2 from '../assets/printer2.jpg';
 
 const How = () => {
   return (
-    <section className="w-full bg-white py-36 px-4" id="how">
+    <section className="w-full bg-white py-36 px-4" id="about">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img src={Printer2} alt="Laptop" className="w-[500px] mx-auto my-4" />
         <div className="flex flex-col justify-center ml-8">
-          <p className="font-bold">საოფისე ტექნიკის სერვისი</p>
-          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-main">
-            პრინტერების და კარტრიჯების შეკეთება/აღდგენა
+          {/* <p className="font-bold">საოფისე ტექნიკის სერვისი</p> */}
+          <h2 className="md:text-4xl sm:text-3xl text-xl font-bold py-2 text-main">
+            ჩვენ შესახებ
           </h2>
           <p>
             კომპანია "SERVICE LAB"-ის სპეციალიზაცია მდგომარეობს ლაზერული საბეჭდი

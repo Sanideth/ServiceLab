@@ -43,26 +43,18 @@ const Navbar = () => {
             </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
+            <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+              ჩვენ შესახებ
+            </HashLink>
+          </li>
+          <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
             <HashLink to="/#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
               როგორ ვმუშაობთ
             </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <HashLink
-              to="/#services"
-              aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
-            >
-              სერვისი
-            </HashLink>
-          </li>
-          <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
             <HashLink to="/#contact" aria-label="დაგვიკავშირდით">
               კონტაქტი
-            </HashLink>
-          </li>
-          <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
-              ჩვენ შესახებ
             </HashLink>
           </li>
         </ul>
@@ -93,26 +85,18 @@ const Navbar = () => {
               </HashLink>
             </li>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
+              <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+                ჩვენ შესახებ
+              </HashLink>
+            </li>
+            <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
               <HashLink to="/#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
                 როგორ ვმუშაობთ
               </HashLink>
             </li>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
-              <HashLink
-                to="/#services"
-                aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
-              >
-                სერვისი
-              </HashLink>
-            </li>
-            <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
               <HashLink to="/#contact" aria-label="დაგვიკავშირდით">
                 კონტაქტი
-              </HashLink>
-            </li>
-            <li className="p-4 hover:text-main transition-all">
-              <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
-                ჩვენ შესახებ
               </HashLink>
             </li>
           </ul>

@@ -1,5 +1,6 @@
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { CiBatteryFull } from 'react-icons/ci';
+import { RiEBike2Line } from 'react-icons/ri';
 import { MdMiscellaneousServices } from 'react-icons/md';
 
 import Card from './Card';
@@ -8,7 +9,7 @@ const Cards = () => {
   return (
     <section
       className="w-full pb-[8rem] pt-24  px-4 bg-printer relative"
-      id="services"
+      id="how"
     >
       <div className="absolute top-0 left-0 bottom-0 right-0 bg-black/70 z-20" />
       <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-white mb-20 text-center relative z-30">
@@ -24,7 +25,7 @@ const Cards = () => {
         />
         <Card
           icon={<CiBatteryFull className="mx-auto text-main" size={30} />}
-          heading="კარტრიჯების დამუხტვის სერვისი"
+          heading="კარტრიჯების დამუხტვა/აღდგენა"
           link="/repair"
         />
         <Card
@@ -56,9 +57,12 @@ const Cards = () => {
         />
       </div>
       <div className="flex items-center justify-center relative z-30 mt-8 flex-col sm:flex-row">
-        <p className="text-secondary font-bold text-xl">
+        <p className="text-secondary font-bold text-xl text-center">
           უფასო საკურიერო მომსახურება
         </p>
+      </div>
+      <div className="relative z-30 flex items-center justify-center mt-4">
+        <RiEBike2Line className="text-main" size={50} />
       </div>
     </section>
   );
