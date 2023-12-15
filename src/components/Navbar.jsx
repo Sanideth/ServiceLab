@@ -1,8 +1,11 @@
 import { useRef, useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import LogoImage from '../assets/logo.jpg';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
+  const navBarRef = useRef();
+
   const [navOpen, setNavOpen] = useState(false);
   const handleNavOpen = () => {
     setNavOpen(!navOpen);
@@ -10,6 +13,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const outsideClickHandler = (e) => {
+      if (navBarRef.current === null) return;
       if (!navBarRef.current.contains(e.target)) {
         setNavOpen(false);
       }
@@ -18,7 +22,6 @@ const Navbar = () => {
     document.addEventListener('mousedown', outsideClickHandler);
   });
 
-  const navBarRef = useRef();
   return (
     <div className="bg-black z-50 relative">
       <div
@@ -35,32 +38,32 @@ const Navbar = () => {
 
         <ul className=" hidden md:flex items-center">
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <a href="#home" aria-label="მთავარი">
+            <HashLink to="/" aria-label="მთავარი">
               მთავარი
-            </a>
+            </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+            <HashLink to="/#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
               როგორ ვმუშაობთ
-            </a>
+            </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <a
-              href="#services"
+            <HashLink
+              to="/#services"
               aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
             >
               სერვისი
-            </a>
+            </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <a href="#contact" aria-label="დაგვიკავშირდით">
+            <HashLink to="/#contact" aria-label="დაგვიკავშირდით">
               კონტაქტი
-            </a>
+            </HashLink>
           </li>
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-            <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+            <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
               ჩვენ შესახებ
-            </a>
+            </HashLink>
           </li>
         </ul>
         <div onClick={handleNavOpen} className="block md:hidden cursor-pointer">
@@ -85,32 +88,32 @@ const Navbar = () => {
           />
           <ul>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
-              <a href="#home" aria-label="მთავარი">
+              <HashLink to="/" aria-label="მთავარი">
                 მთავარი
-              </a>
+              </HashLink>
             </li>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
-              <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+              <HashLink to="/#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
                 როგორ ვმუშაობთ
-              </a>
+              </HashLink>
             </li>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
-              <a
-                href="#services"
+              <HashLink
+                to="/#services"
                 aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
               >
                 სერვისი
-              </a>
+              </HashLink>
             </li>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
-              <a href="#contact" aria-label="დაგვიკავშირდით">
+              <HashLink to="/#contact" aria-label="დაგვიკავშირდით">
                 კონტაქტი
-              </a>
+              </HashLink>
             </li>
             <li className="p-4 hover:text-main transition-all">
-              <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+              <HashLink to="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
                 ჩვენ შესახებ
-              </a>
+              </HashLink>
             </li>
           </ul>
         </div>

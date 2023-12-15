@@ -6,8 +6,9 @@ const Hero = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-10" />
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center relative z-20">
         <p className="text-secondary font-bold p-2">
-          დაბეჭდე სწრაფად და მარტივად
+          გაიმარტივე ბეჭდვის პროცესი
         </p>
+        <p className="text-secondary font-bold p-2">დაზოგე დრო და ფინანსები</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold  bg-clip-text text-transparent bg-gradient-to-b from-[#0fec93] to-[#0039e2]">
           Service
         </h1>
@@ -20,16 +21,7 @@ const Hero = () => {
           </p>
           <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold pl-2 md:pl-4"
-            strings={[
-              'Canon',
-              'HP',
-              'Dell',
-              'IBM',
-              'Kodak',
-              'Samsung',
-              'Toshiba',
-              'Sharp',
-            ]}
+            strings={['HP', 'Canon', 'Lexmark', 'Samsung']}
             typeSpeed={120}
             backSpeed={140}
             loop
