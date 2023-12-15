@@ -8,7 +8,7 @@ export default function Repair() {
     <>
       <Navbar />
       <ArrowUp />
-      <div className="p-10 bg-white flex flex-col justify-center items-center sm:p-20">
+      <div className="p-10 bg-white flex flex-col justify-center items-center text-center  sm:p-20">
         <h2 className="font-bold text-xl mb-4">
           კარტრიჯების დამუხტვის სერვისი
         </h2>
