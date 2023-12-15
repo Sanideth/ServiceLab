@@ -1,23 +1,20 @@
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import How from './components/How';
-import Contact from './components/Contact';
-import ArrowUp from './components/ArrowUp';
+import {
+  RouterProvider,
+  ScrollRestoration,
+  createBrowserRouter,
+} from 'react-router-dom';
+import RoutesComponent from './components/RoutesComponent';
 
-function App() {
+const router = createBrowserRouter([{ path: '*', Component: Root }]);
+
+function Root() {
   return (
-    <div className="App scroll-smooth">
-      <Navbar />
-      <ArrowUp />
-      <Hero />
-      <How />
-      <Cards />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <RoutesComponent /> <ScrollRestoration />
+    </>
   );
 }
 
-export default App;
+export default function App() {
+  return <RouterProvider router={router} />;
+}
