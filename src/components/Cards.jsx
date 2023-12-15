@@ -55,6 +55,11 @@ const Cards = () => {
           borderColor="border-main"
         />
       </div>
+      <div className="flex items-center justify-center relative z-30 mt-8 flex-col sm:flex-row">
+        <p className="text-secondary font-bold text-xl">
+          უფასო საკურიერო მომსახურება
+        </p>
+      </div>
     </section>
   );
 };
