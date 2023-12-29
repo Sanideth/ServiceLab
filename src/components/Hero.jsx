@@ -1,8 +1,15 @@
 import Typed from 'react-typed';
+import backgroundVideo from '../assets/backgroundVideoCartridge.mp4';
+import { useMedia } from 'use-media';
 
 const Hero = () => {
+  const isDesktop = useMedia({ minWidth: '768px' });
   return (
-    <div className="text-white bg-hero bg-cover bg-center">
+    <section
+      className={`text-white relative ${
+        isDesktop ? '' : 'bg-hero bg-cover bg-center'
+      }`}
+    >
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-10" />
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center relative z-20">
         <p className="text-secondary font-bold p-2">
@@ -34,7 +41,20 @@ const Hero = () => {
           გაიგე მეტი
         </a>
       </div>
-    </div>
+      {isDesktop ? (
+        <video
+          autoPlay
+          loop
+          muted
+          className="lg:block absolute -z-50 w-auto min-w-full  top-0 left-0 object-cover brightness-70 h-full"
+        >
+          <source src={backgroundVideo} type="video/mp4" />
+          <p>Your browser doesn't support this video</p>
+        </video>
+      ) : (
+        false
+      )}
+    </section>
   );
 };
 
