@@ -8,19 +8,20 @@ export default function Repair() {
     <>
       <Navbar />
       <ArrowUp />
-      <div className="p-10 bg-white flex flex-col justify-center items-center text-center  sm:p-20">
-        <h2 className="font-bold text-xl mb-4">
+      <div className="relative p-10 text-white flex flex-col justify-center items-center text-center sm:p-20 bg-repair bg-cover bg-no-repeat bg-center h-[500px]">
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-10" />
+        <h2 className="font-bold text-xl mb-4 relative z-20">
           კარტრიჯების დამუხტვის სერვისი
         </h2>
-        <p className="mb-4">
+        <p className="mb-4 relative z-20">
           ჩვენ გთავაზობთ კარტრიჯების დამუხტვა/აღდგენის სერვისს ლაზერული
           პრინტერებისთვის.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 relative z-20">
           კარტრიჯი იმუხტება თითოეული მოდელისთვის განკუთვნილი შესაბამისი კოდის
           მქონდე ფხვნილით.
         </p>
-        <p className="text-main">
+        <p className="text-main relative z-20">
           დამუხტვა/აღდგენა ხორციელდება უმაღლესი ხარისხის სახარჯი მასალებით, რა
           დროსაც ხდება ყველა ცვეთადი დეტალის შეცვლა. მომხმარებელთან მიწოდებამდე
           კარტრიჯები გადის ხარისხის კონტროლის რამდენიმე მკაცრ ეტაპს და იფუთება
