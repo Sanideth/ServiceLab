@@ -8,6 +8,9 @@ module.exports = {
         printer: "url('/src/assets/printer.jpg')",
         printer1: "url('/src/assets/printer1.jpg')",
         printer2: "url('/src/assets/hero-1.webp')",
+        service: "url('/src/assets/service1.jpg')",
+        sales: "url('/src/assets/sales.jpg')",
+        repair: "url('/src/assets/repair.jpg')",
       },
       colors: {
         main: '#2281d5',
