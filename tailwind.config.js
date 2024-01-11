@@ -11,6 +11,7 @@ module.exports = {
         service: "url('/src/assets/service1.jpg')",
         sales: "url('/src/assets/sales.jpg')",
         repair: "url('/src/assets/repair1.jpg')",
+        howToBackground: "url('/src/assets/howToBackground.jpg')",
       },
       colors: {
         main: '#2281d5',
