@@ -1,6 +1,6 @@
 {
   "name": "servicelab.ge",
-  "version": "0.1.9",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",

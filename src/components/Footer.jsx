@@ -20,7 +20,7 @@ const Footer = () => {
               href="tel:+995322115511"
               aria-label="დაგვიკავშირდით ტელეფონის ნომერზე"
             >
-              2 11 55 11
+              2 11 50 11
             </a>
           </div>
           <div className="flex items-center justify-center lg:justify-start">
