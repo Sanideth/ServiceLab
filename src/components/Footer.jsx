@@ -17,10 +17,10 @@ const Footer = () => {
             <BsFillTelephoneFill className="mr-3" />
             <a
               className="py-4"
-              href="tel:+995555443144"
+              href="tel:+995322115511"
               aria-label="დაგვიკავშირდით ტელეფონის ნომერზე"
             >
-              555 44 31 44
+              2 11 55 11
             </a>
           </div>
           <div className="flex items-center justify-center lg:justify-start">
