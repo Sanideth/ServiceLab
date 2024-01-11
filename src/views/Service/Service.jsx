@@ -20,7 +20,7 @@ export default function Service() {
         <p className="mb-4 relative z-20">
           შესაკეთებელი ტექნიკის სერვისი ხორციელდება შემდეგნაირად:
         </p>
-        <ul className="list-disc mx-auto text-main sm:w-3/4 text-left relative z-20">
+        <ul className="list-disc mx-auto sm:w-3/4 text-left relative z-20">
           <li>კურიერის გამოძახება</li>
           <li>ტექნიკის დიაგნოსტიკა</li>
           <li>

@@ -10,7 +10,7 @@ module.exports = {
         printer2: "url('/src/assets/hero-1.webp')",
         service: "url('/src/assets/service1.jpg')",
         sales: "url('/src/assets/sales.jpg')",
-        repair: "url('/src/assets/repair.jpg')",
+        repair: "url('/src/assets/repair1.jpg')",
       },
       colors: {
         main: '#2281d5',
