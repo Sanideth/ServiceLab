@@ -50,31 +50,23 @@ const Footer = () => {
           <div>
             <ul className=" flex-col flex md:flex-row items-center mt-6">
               <li className="p-2 whitespace-nowrap  cursor-pointer hover:text-main transition-all">
-                <a href="#home" aria-label="მთავარი">
+                <a href="/" aria-label="მთავარი">
                   მთავარი
                 </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-                <a href="#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
+                <a href="/#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
+                  ჩვენ შესახებ
+                </a>
+              </li>
+              <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
+                <a href="/#how" aria-label="გაიგეთ მეტი თუ როგორ ვმუშაობთ">
                   როგორ ვმუშაობთ
                 </a>
               </li>
               <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-                <a
-                  href="#services"
-                  aria-label="გაიგეთ მეტი თუ რა სერვისებს გთავაზობთ"
-                >
-                  სერვისი
-                </a>
-              </li>
-              <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-                <a href="#contact" aria-label="დაგვიკავშირდით">
+                <a href="/#contact" aria-label="დაგვიკავშირდით">
                   კონტაქტი
-                </a>
-              </li>
-              <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
-                <a href="#about" aria-label="გაიგეთ მეტი ჩვენ შესახებ">
-                  ჩვენ შესახებ
                 </a>
               </li>
             </ul>
