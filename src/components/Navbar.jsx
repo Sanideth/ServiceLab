@@ -23,7 +23,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="bg-black z-50 relative">
+    <div className="bg-black z-[999] relative">
       <div
         className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-40 relative"
         id="home"

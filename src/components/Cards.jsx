@@ -39,7 +39,7 @@ const Cards = () => {
           link="/sales"
         />
       </div>
-      <div className="flex items-center justify-center relative z-30 mt-8 flex-col sm:flex-row">
+      <div className="flex items-center justify-center relative z-30 mt-12 flex-col sm:flex-row">
         <Circle
           mainText="100%"
           variableText="ხარისხი"
