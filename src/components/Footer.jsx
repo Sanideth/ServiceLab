@@ -2,17 +2,20 @@ import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdLocationPin, MdEmail } from 'react-icons/md';
 import LogoImage from '../assets/logo.jpg';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
     <footer id="about">
       <div className="max-w-[1240px] mx-auto py-16 px-4 grid gap-8 text-gray-300 lg:grid-cols-3">
         <div className="justify-self-center text-center flex flex-col items-center lg:justify-self-start lg:text-left">
-          <img
-            src={LogoImage}
-            alt="ServiceLab Logo"
-            className="w-[100px] h-[100px] justify-self-center"
-          />
+          <HashLink to="/">
+            <img
+              src={LogoImage}
+              alt="ServiceLab Logo"
+              className="w-[100px] h-[100px] justify-self-center"
+            />
+          </HashLink>
           <div className="flex items-center justify-center lg:justify-start">
             <BsFillTelephoneFill className="mr-3" />
             <a
@@ -46,7 +49,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex justify-between row-start-2 justify-self-center lg:row-start-1 lg:col-start-2 lg:col-span-2">
+        <div className="flex justify-between row-start-2 justify-self-center lg:justify-self-end lg:row-start-1 lg:col-start-2 lg:col-span-2">
           <div>
             <ul className=" flex-col flex md:flex-row items-center mt-6">
               <li className="p-2 whitespace-nowrap  cursor-pointer hover:text-main transition-all">
