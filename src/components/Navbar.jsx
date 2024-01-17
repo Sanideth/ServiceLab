@@ -28,13 +28,15 @@ const Navbar = () => {
         className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-40 relative"
         id="home"
       >
-        <div className="flex flex-col">
-          <img
-            src={LogoImage}
-            alt="ServiceLab Logo"
-            className="w-[80px] h-[80px] justify-self-center"
-          />
-        </div>
+        <HashLink to="/">
+          <div className="flex flex-col">
+            <img
+              src={LogoImage}
+              alt="ServiceLab Logo"
+              className="w-[80px] h-[80px] justify-self-center"
+            />
+          </div>
+        </HashLink>
 
         <ul className=" hidden md:flex items-center">
           <li className="p-2 whitespace-nowrap cursor-pointer hover:text-main transition-all">
@@ -73,11 +75,13 @@ const Navbar = () => {
           }
           ref={navBarRef}
         >
-          <img
-            src={LogoImage}
-            alt="ServiceLab Logo"
-            className="w-[80px] h-[80px] justify-self-center ml-4"
-          />
+          <HashLink to="/">
+            <img
+              src={LogoImage}
+              alt="ServiceLab Logo"
+              className="w-[80px] h-[80px] justify-self-center ml-4"
+            />
+          </HashLink>
           <ul>
             <li className="p-4 border-b border-b-gray-600 hover:text-main transition-all">
               <HashLink to="/" aria-label="მთავარი">
